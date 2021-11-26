@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-	private static Logger logger = (Logger) LoggerFactory.getLogger(HomeController.class);
+	//private static Logger logger = (Logger) LoggerFactory.getLogger(HomeController.class);
 
 	
 	@GetMapping("/home")
 	public String HomeMessage()
 	{
-		logger.info("testing the jenkins is working or not");
+		//logger.info("testing the jenkins is working or not");
 		return "spring-jenkins";
 	}
 }
