@@ -14,7 +14,7 @@ public class HomeController {
 	{
 		//logger.info("testing the jenkins is working or not");
 
-		return "spring-jenkins application added newly...adfasfsafasdfsa";
+		return "added fresh code:";
 
 	}
 }
