@@ -14,7 +14,7 @@ public class HomeController {
 	{
 		//logger.info("testing the jenkins is working or not");
 
-		return "added fresh code:";
+		return "added fresh code: testing all the env...";
 
 	}
 }
