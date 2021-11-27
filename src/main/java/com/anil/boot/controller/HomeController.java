@@ -13,6 +13,6 @@ public class HomeController {
 	public String HomeMessage()
 	{
 		//logger.info("testing the jenkins is working or not");
-		return "spring-jenkins added dev, UAT, PROD...";
+		return "spring-jenkins added dev, UAT, PROD...new line added";
 	}
 }
