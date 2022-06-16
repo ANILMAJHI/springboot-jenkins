@@ -12,7 +12,7 @@ public class HomeController {
 	@GetMapping("/home")
 	public String HomeMessage()
 	{
-		//logger.info("testing the jenkins is working or not");
+		//logger.info("testing the jenkins is working or not...");
 
 		return "hello jenkins///";
 
